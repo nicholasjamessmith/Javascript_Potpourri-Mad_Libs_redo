@@ -50,8 +50,8 @@ console.log(setAlarm2(true, false))
 //step 1: create a function
 //const oddNumberCount = (number) => {
 // return how many odd numbers are below "number"
-  //if (number % 2 !== 1) {
-  //}
+//if (number % 2 !== 1) {
+//}
 //    let
 //      //create a counter
 //      let count = 0;
@@ -93,31 +93,23 @@ console.log(setAlarm2(true, false))
 //Step 1: create an object named bankInfo *
 //Step 2: include the keys listed as items in the object "bankInfo" *
 //Step 3: give each key a number value (either negative or positive) *
-//Step 4: write a function that accepts "bankInfo" object as an argument
+//Step 4: write a function that accepts "bankInfo" object as an argument *
 //Step 5: the function should calculate the total of your bank account
 //Step 6: the function should return the total of your bank account
 
-//const bankInfo = {
-//  savings: 40,
-//  checking: -2,
-//  moneyMarket: 100,
-//  creditCard: 10,
-//};
-////parameters
-//const bankAccountSummary = (input) =>
+const bankInfo = {
+  savings: 40,
+  checking: -2,
+  moneyMarket: 100,
+  creditCard: 10,
+};
 
-//  //console.log(input.savings + input.checking + input.moneyMarket + input.creditCard);
+console.log(Object.values(bankInfo))
 
-//  bankAccountSummary()
-
-
-//const myFunction = (argObject) => {
-//    console.log(argObject.cheese)
-//    console.log(argObject.bread)
+//parameters
+//const bankAccountSummary = (bankInfo) = {
 //}
+  
+//=> { Object.values(bankInfo).reduce((savings, checking, moneyMarket, creditCard) => savings + checking + moneyMarket + creditCard, 0) };
 
-//myFunction({
-//    cheese: "Gouda",
-//    bread: "Rye"
-//})
-
+//console.log(input.savings + input.checking + input.moneyMarket + input.creditCard);
